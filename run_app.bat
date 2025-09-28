@@ -1,0 +1,9 @@
+@echo off
+echo Starting AI Resume Generator...
+echo.
+echo Installing dependencies if needed...
+pip install -r requirements.txt
+echo.
+echo Starting Streamlit application...
+streamlit run resume_generator.py
+pause
